@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carta de Amor</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        background-color: #fce4ec; /* Fondo rosa pastel */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .carta-img {
+        width: 900px; /* Ancho de la imagen (triple del tamaño original) */
+        max-width: 100%; /* Para asegurarse de que la imagen no se estire más allá de su tamaño natural */
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      .carta-img:hover {
+        transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+      }
+    </style>
+  </head>
+  <body>
+    <a href="escrito-de-amor.html">
+      <img class="carta-img" src="cartacorazon.png" alt="Carta de Amor" />
+    </a>
+  </body>
+</html>
